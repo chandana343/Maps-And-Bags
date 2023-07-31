@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>TELANGANA</title>
+    <link rel="icon"  href="https://thumbs.dreamstime.com/b/telangana-map-silhouette-vector-illustration-isolated-white-background-telangana-map-silhouette-vector-illustration-isolated-231323048.jpg" >
+    <style>
+      body{
+        background-image: url('https://www.holidify.com/images/cmsuploads/compressed/Hussain_Sagar_Lake2C_Hyderabad_20230309151019.jpg');
+        background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;background-color:transparent;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+        p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align:center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.container .box {
+  position: relative;
+  width: 280px;
+  height: 400px;
+  background: #fff;
+  transition: 0.5s;
+  overflow: hidden;
+}
+.container .box img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 1rem 0;
+  object-fit: cover;
+}
+.container .box:before {
+  content: "";
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: #f0f2f0;
+  z-index: 1;
+  transition: 0.5s;
+}
+.container .box:after {
+  content: "";
+  opacity: 0.9;
+  position: absolute;
+  bottom: -100%;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background: #fff;
+  z-index: 1;
+  transition: 0.5s;
+}
+.container:hover .box:before {
+  top: 0;
+}
+.container:hover .box:after {
+  bottom: 0;
+  transition-delay: 0.5s;
+}
+.container .box:hover:before {
+  top: -100%;
+}
+.container .box:hover:after {
+  bottom: -100%;
+}
+#jharkhandt,#telan{
+
+text-align: center;
+}
+#telanganat{
+
+text-align: center;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);font-size: 20px;font-weight: bold;color: white;
+}
+a{
+  font-size: 30px;text-decoration: none;font-weight: bold;color: white;text-align: center;
+}
+h1{
+  text-align: center;font-weight: bolder;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+    </style>
+</head>
+<body>
+    <h1 id="telan">TELANGANA</h1><br><br><br><br>
+    <div class="container">
+    <table id="telanganat">
+        <tr>
+            <td>
+                <div class="box">
+                    <img src="https://cdn.telanganatoday.com/wp-content/uploads/2021/10/Charminar.jpg">
+                  </div> <br><br>
+                  CHARMINAR
+            </td>
+            <td>
+                <div class="box">
+                    <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/74/b9/2c.jpg">
+                  </div> <br><br>
+                  GOLCONDA FORT
+            </td>
+            <td>
+                <div class="box">
+                    <img src="https://i0.wp.com/hindupad.com/wp-content/uploads/2015/03/Birla-Mandir-Hyderabad.jpg?fit=560%2C320&ssl=1">
+                  </div><br><br>
+                  BIRLA MANDIR
+            </td>
+            <td>
+                <div class="box">
+                    <img src="https://www.gosahin.com/go/p/e/1528637280_Warangal-Fort1.jpg">
+                  </div> <br><br>
+                  WARANGAL
+            </td>
+        </tr>
+    </table>
+</div><br><br><center><a href="TELANGANA-INFO.html">EXPLORE</a></center>
+</body>
+</html>

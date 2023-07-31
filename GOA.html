@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+<title>GOA</title>
+<link rel="icon"  href="https://cdn1.vectorstock.com/i/1000x1000/92/15/goa-map-outline-vector-20569215.jpg" >
+<style>
+	*,*:after,*:before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	font-family: arial;
+	font-size: 16px;
+	margin: 0;
+	background: #c5eaf4;
+}
+
+.profile-container{
+	display: flex;height: 500px;
+}
+.profile-box{
+	flex-basis: calc(33.333%);
+	position: relative;
+	overflow: hidden;
+	height: 100vh;
+	background-size:  auto 120%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	transition: all 0.6s ease-out;
+	position: relative;
+	border-right: 1px solid #000;
+	display: flex;
+	align-items: flex-end;
+	padding: 40px;
+}
+.profile-box-content{
+	background:rgba(0,0,0,0.8);
+	padding: 30px;
+	color: #fff;
+	font-size: 18px;
+	opacity: 0;
+	position: relative;
+	left: -30px
+	
+}
+.profile-box-content h2{
+	margin:0 0 20px;
+}
+.profile-box-content p:last-child{
+	margin: 0;
+}
+.profile-box:hover .profile-box-content{
+	opacity: 1;
+	transition: all 0.3s ease-out 0.6s ;
+	left: 0;
+}
+.profile-box:last-child{
+	border:0px;
+}
+.profile-container:hover .profile-box{
+	flex-basis: calc(15%);
+}
+.profile-container:hover .profile-box:hover{
+	flex-basis: calc(70%);
+	transition: all 0.4s ease-out;
+	z-index: 1;
+}
+h1{
+    text-align: center;font-family:geraldine;font-style: italic;
+}
+a{
+	font-size: 30px;text-decoration: none;
+}
+
+</style>
+</head>
+<body>
+<h1>GOA FUN CAP OF INDIA</h1>
+<div class="profile-container">
+	<div class="profile-box" style="background-image: url('https://imgcld.yatra.com/ytimages/image/upload/t_yt_blog_w_800_c_fill_g_auto_q_auto:good_f_jpg/v1450246263/Word_Goa_on_beach.jpg');">
+		<div class="profile-box-content">
+			<h2>BEACHES</h2>
+			<p><a href="GOA-INFO.html">READ MORE</a></p>
+		</div>
+	</div>
+	<div class="profile-box" style="background-image: url('https://www.tourmyindia.com/states/goa/image/churches-goa.webp');">
+		<div class="profile-box-content">
+			<h2>FORTS & CHURCHES</h2>
+			<p><a href="GOA-INFO.html">READ MORE</a></p>
+		</div>
+	</div>
+	<div class="profile-box" style="background-image: url('https://goafoundation.org/wp-content/uploads/2019/12/pageCover.jpg');">
+		<div class="profile-box-content">
+			<h2>FORESTS</h2>
+			<p><a href="GOA-INFO.html">READ MORE</a></p>
+		</div>
+	</div>
+	<div class="profile-box" style="background-image: url('https://imgmedia.lbb.in/media/2022/12/6392d66eb869c97ea869e863_1670567534943.jpg');">
+		<div class="profile-box-content">
+			<h2>NIGHT LIFE</h2>
+			<p><a href="GOA-INFO.html">READ MOREE</a></p>
+		</div>
+	</div>		
+</div>
+</body>
+</html>

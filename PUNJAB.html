@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+<title>PUNJAB</title>
+<link rel="icon"  href="https://www.shutterstock.com/image-vector/punjab-india-vector-map-white-260nw-1954348504.jpg" >
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+<style>
+    *,*:after,*:before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	font-family: arial;
+	font-size: 16px;
+	margin: 0;
+	background-color: #ecefda;
+}
+
+.profile-container{
+	display: flex;
+}
+.profile-box{
+	flex-basis: calc(33.333%);
+	position: relative;
+	overflow: hidden;
+	height: 100vh;
+	background-size:  auto 120%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	transition: all 0.6s ease-out;
+	position: relative;
+	border-right: 1px solid #000;
+	display: flex;
+	align-items: flex-end;
+	padding: 40px;
+}
+.profile-box-content{
+	background:rgba(0,0,0,0.8);
+	padding: 30px;
+	color: #fff;
+	font-size: 18px;
+	opacity: 0;
+	position: relative;
+	left: -30px
+	
+}
+.profile-box-content h2{
+	margin:0 0 20px;
+}
+.profile-box-content p:last-child{
+	margin: 0;
+}
+.profile-box:hover .profile-box-content{
+	opacity: 1;
+	transition: all 0.3s ease-out 0.6s ;
+	left: 0;
+}
+.profile-box:last-child{
+	border:0px;
+}
+.profile-container:hover .profile-box{
+	flex-basis: calc(15%);
+}
+.profile-container:hover .profile-box:hover{
+	flex-basis: calc(70%);
+	transition: all 0.4s ease-out;
+	z-index: 1;
+}
+h1{
+    text-align: center;font-family:geraldine;font-style: italic;
+}
+h2{
+    font-family:cochin;font-style: italic;
+}
+a{
+	text-decoration: none;color: white;
+}
+
+</style>
+</head>
+<body>
+<h1>---PUNJAB----</h1>
+<div class="profile-container">
+	<div class="profile-box" style="background-image: url('https://travelaficionados.com/wp-content/uploads/2015/11/Amritsar-112.jpg');">
+		<div class="profile-box-content">
+			<h2>AMRISTSAR</h2>
+			<p><a href="PUNJAB-INFO.html">READ MORE</a></p>
+		</div>
+	</div>
+	
+	<div class="profile-box" style="background-image: url('https://i.tribune.com.pk/media/images/1902771-rawallake-1549172504/1902771-rawallake-1549172504.jpg');">
+		<div class="profile-box-content">
+			<h2>NAMAL LAKE</h2>
+			<p><a href="PUNJAB-INFO.html">READ MORE</a></p>
+		</div>
+	</div>
+	<div class="profile-box" style="background-image: url('https://www.fabhotels.com/blog/wp-content/uploads/2019/04/Qila-Mubarak.jpg');">
+		<div class="profile-box-content">
+			<h2>BATHINDA</h2>
+			<p><a href="PUNJAB-INFO.html">READ MORE</a></p>
+		</div>
+	</div>		
+</div>
+</body>
+</html>

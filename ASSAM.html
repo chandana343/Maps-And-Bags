@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>ASSAM</title>
+    <link rel="icon"  href="https://www.shutterstock.com/image-vector/assam-india-vector-map-isolated-260nw-242181436.jpg" >
+    <style>
+      body{
+        background-image: url('https://img.theculturetrip.com/1024x/wp-content/uploads/2022/11/kashish-lamba-_hocl_pbepg-unsplash.jpg');
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;background-color:transparent;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: white;
+      }
+        p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align:center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.container .box {
+  position: relative;
+  width: 280px;
+  height: 400px;
+  background: #fff;
+  transition: 0.5s;
+  overflow: hidden;
+}
+.container .box img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 1rem 0;
+  object-fit: cover;
+}
+.container .box:before {
+  content: "";
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: #f0f2f0;
+  z-index: 1;
+  transition: 0.5s;
+}
+.container .box:after {
+  content: "";
+  opacity: 0.9;
+  position: absolute;
+  bottom: -100%;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background: #fff;
+  z-index: 1;
+  transition: 0.5s;
+}
+.container:hover .box:before {
+  top: 0;
+}
+.container:hover .box:after {
+  bottom: 0;
+  transition-delay: 0.5s;
+}
+.container .box:hover:before {
+  top: -100%;
+}
+.container .box:hover:after {
+  bottom: -100%;
+}
+#jharkhandt{
+
+text-align: center;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);font-size: 20px;font-weight: bold;
+}
+a{
+  font-size: 30px;text-decoration: none;font-weight: bold;color: white;text-align: center;
+}
+h1{
+  text-align: center;font-weight: bolder;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+    </style>
+</head>
+<body>
+    <h1 style="color: black;">ASSAM</h1>
+    <div class="container">
+    <table id="assamt">
+        <tr>
+            <td>
+                <div class="box">
+                    <img src="https://fastly.4sqi.net/img/general/600x600/14656945_asXI8CH-_kuaVztoCRIL2e1_kAegEG1ePZ9LnDRC1WQ.jpg">
+                  </div> <br><br>
+                  NATIONAL PARKS
+            </td>
+            <td>
+                <div class="box">
+                    <img src="https://assets.traveltriangle.com/blog/wp-content/uploads/2018/02/Kamakhya-Temple.jpg">
+                  </div> <br><br>
+                  KAMAKHYA  TEMPLE
+            </td>
+            <td>
+                <div class="box">
+                    <img src="https://cdn.tripuntold.com/media/photos/location/2019/03/09/84ec7edc-ea1a-4c7e-8b26-11e172bf7478.jpg">
+                  </div><br><br>
+                  KAKOCHANG WATERFALLS
+            </td>
+            <td>
+                <div class="box">
+                    <img src="https://assets.traveltriangle.com/blog/wp-content/uploads/2019/03/Astronomical-Observatory.jpeg">
+                  </div> <br><br>
+                  GUWAHATI
+            </td>
+        </tr>
+    </table>
+    
+</div><br><center><a href="ASSAM-INFO.html">EXPLORE</a></center>
+
+</body>
+</html>

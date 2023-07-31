@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>MIZORAM</title>
+    <link rel="icon"  href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxMZ6mJgfuoqt-5vo0qiZYcnLF8x7VHEcWXds3Wux3RSvdkcJhydo3DvPijmQieRTpC2ByvnZAGQE&usqp=CAU&ec=48665701" >
+    <style>
+        p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align:center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.container .box {
+  position: relative;
+  width: 280px;
+  height: 400px;
+  background: #fff;
+  transition: 0.5s;
+  overflow: hidden;
+}
+.container .box img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 1rem 0;
+  object-fit: cover;
+}
+.container .box:before {
+  content: "";
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: #f0f2f0;
+  z-index: 1;
+  transition: 0.5s;
+}
+.container .box:after {
+  content: "";
+  opacity: 0.9;
+  position: absolute;
+  bottom: -100%;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background: #fff;
+  z-index: 1;
+  transition: 0.5s;
+}
+.container:hover .box:before {
+  top: 0;
+}
+.container:hover .box:after {
+  bottom: 0;
+  transition-delay: 0.5s;
+}
+.container .box:hover:before {
+  top: -100%;
+}
+.container .box:hover:after {
+  bottom: -100%;
+}
+#mizoramt{
+
+text-align: center;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);font-size: 20px;font-weight: bold;
+}
+h1{
+  text-align: center;font-weight: bolder;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+body{
+        background-image: url('https://www.ibef.org/assets/images/states/Mizoram-2.jpg');
+        background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;background-color:transparent;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+      a{
+  font-size: 30px;text-decoration: none;font-weight: bold;color:black;text-align: center;
+}
+      #mizoramt td{color:white;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);font-size: 20px;}
+    </style>
+</head>
+<body>
+    <h1 id="mizo">MIZORAM</h1><br><br><br><br>
+    <div class="container">
+    <table id="mizoramt">
+        <tr>
+            <td>
+                <div class="box">
+                    <img src="https://www.tripiwiki.com/images/places/uploads/Tam-Dil-Lake53625.jpg" >
+                  </div> <br><br>
+                  TAM DIL LAKE
+            </td>
+            <td>
+                <div class="box">
+                    <img src="https://www.holidify.com/images/cmsuploads/compressed/CyGtfZnVEAAUNC6-1_20181225120210.jpg">
+                  </div> <br><br>
+                  PHAWNGPUI NATIONAL PARK
+            </td>
+            <td>
+                <div class="box">
+                    <img src="https://i0.wp.com/www.eastmojo.com/wp-content/uploads/2022/04/Photo-courtesy-Beautiful-Maraland-Facebook-Page.jpg?fit=1200%2C717&ssl=1">
+                  </div><br><br>
+                  SIAHA
+            </td>
+            <td>
+                <div class="box">
+                    <img src="https://cdn.s3waas.gov.in/s36766aa2750c19aad2fa1b32f36ed4aee/uploads/bfi_thumb/2018040459-olw8ynn4n4b27rwyndyyczd00o3zpd369sfjbguykq.jpg">
+                  </div> <br><br>
+                  VANTAWNG FALLS
+            </td>
+        </tr>
+    </table>
+</div><br><center><a href="MIZORAM-INFO.html">EXPLORE</a></center>
+</body>
+</html>
